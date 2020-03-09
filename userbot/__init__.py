@@ -55,27 +55,27 @@ API_HASH = os.environ.get("API_HASH",8c8b9bd2fefa316092e9d7f47ce00eef)
 
 
 # Userbot Session String
-STRING_SESSION = os.environ.get("STRING_SESSION", None)
+STRING_SESSION = os.environ.get("STRING_SESSION",1BVtsOHgBuy8vFICXRy2jFz__28o9wPznZoNmbcVa4YSAwqzmGonIdxLlj_nm95ZduEf276SyW2a2woXKB7c1vxBjRkQl7JpBIwaMvml2mkNzYyYFpz_q50s-V1lEhMkNlW5DSB3adj3_D4SXz4cTr6Nt8DsLPhwq5H-2ntK90PXssfmDWAWvWDu7TOPc0iFGwB7maT_lnAoFPXSFVtu8eHoHd7LO1p6VOd5x94e63ji9660NGmaFdDLI3-NtM_gSB5PsXfo1xZ1tqDor1xZswiFrrR6TOy_DvLuYB36XeUIhx_-wB1zpSMSO9BwKQ9FQDrsXRy1hdCkmMMMbuxmyrVERiRj-itM= )
 
 # Logging channel/group ID configuration.
-BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", None))
+BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID",-1001356778400"))
 
 # Userbot logging feature switch.
-BOTLOG = sb(os.environ.get("BOTLOG", "False"))
+BOTLOG = sb(os.environ.get("BOTLOG", "True"))
 LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "False"))
 
 # Bleep Blop, this is a bot ;)
-PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
+PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "True"))
 
 # Heroku Credentials for updater.
-HEROKU_MEMEZ = sb(os.environ.get("HEROKU_MEMEZ", "False"))
-HEROKU_APPNAME = os.environ.get("HEROKU_APPNAME", None)
-HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
+HEROKU_MEMEZ = sb(os.environ.get("HEROKU_MEMEZ", "True"))
+HEROKU_APPNAME = os.environ.get("HEROKU_APPNAME", wandybot)
+HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", 3be5cd5c-22a6-4fc4-84a5-099da53f0a35)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/mkaraniya/OpenUserBot.git")
+    "https://github.com/keselekpermen69/userbutt)
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
